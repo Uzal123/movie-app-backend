@@ -1,7 +1,6 @@
-import express, { Request, Response, NextFunction } from "express";
-import path from "path";
+import express, { type Request, type Response, type NextFunction } from "express";
 import morgan from "morgan";
-import { HttpError } from "./libs/httpError";
+import { type HttpError } from "./libs/httpError";
 import routes from "./routes";
 import cors from "cors";
 

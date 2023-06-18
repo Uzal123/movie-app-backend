@@ -1,11 +1,11 @@
-import { Router, Response, Request } from "express";
+import { Router, type Response, type Request } from "express";
 import { catchAsync } from "../../utils/catchAsync";
 import { ShowModel } from "../../models/Show";
 import movieServices from "../../services";
 import {
-  BookShowPayload,
-  CancelShowPayload,
-  CreateShowPayload,
+  type BookShowPayload,
+  type CancelShowPayload,
+  type CreateShowPayload,
 } from "../../types/payloads";
 const router = Router();
 

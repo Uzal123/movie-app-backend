@@ -1,4 +1,4 @@
-import { HttpErrorPayload } from "../types/error";
+import { type HttpErrorPayload } from "../types/error";
 
 export class HttpError extends Error {
   type: string;

@@ -1,5 +1,5 @@
 import { ShowModel } from "../models/Show";
-import { Show } from "../types/model";
+import { type Show } from "../types/model";
 
 const createShow = async (
   name: string,

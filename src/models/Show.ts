@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-import { Show } from "../types/model";
+import { type Show } from "../types/model";
 
 export const ShowSchema = new Schema<Show>({
   name: {
